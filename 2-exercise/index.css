@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.outer-cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 238, 238);
+}
+
+.inner-cont{
+    display: flex;
+    gap: 6rem;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.intro h1 {
+    color:#045ff3;
+    font-size: 60px;
+    font-weight: 700;
+}
+.intro p {
+    font-size: 24px;
+
+}
+.login{
+    height: 456px;
+    width: 396px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 28px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.1);
+}
+
+.login > form  input{
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 2px solid #e9eff5;
+    height: 50px;
+    width:100%;
+    padding:20px;
+    font-size: 17px;
+}
+
+.login > form a {
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login > form hr {
+    color: #ecf0f5;
+    margin:2rem 0;
+}
+
+.pass{
+    position: relative;
+}
+.pass span{
+    position: absolute;
+    top:15px;
+    right:10px;
+
+}
+.pass > input {
+    padding-right: 40px;
+}
+
+.loginb{
+    background-color: #0866ff;
+    color:white;
+    margin-bottom: 1rem;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.createb{
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 45px;
+    margin-bottom:1rem;
+    align-self: center;
+    padding:10px 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.login > p{
+    text-align: center;
+}
+
+.login > p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+button:hover {
+  cursor:pointer;
+}

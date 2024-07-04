@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(67, 151, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.2rem;
+    height: fit-content;
+}
+
+.container > div {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.right, .footer {
+    height: 430px;;
+}
+.header, .menu, .main {
+    height:110px;
+}
+p {
+    font-size: 40px;
+}
